@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js',
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PDZBVF');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Style Sheets -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Expletus+Sans|Great+Vibes" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/about.css">
+
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDZBVF" height="0" width="0"
+            style="display: none; visibility: hidden;"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="nav" id="mynav">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="container">
+        <section>
+            <h1 class="portfolio">Portfolio</h1>
+            <a href="http://donfiler.com/books/zwei2.html">
+                <img src="./img/zwei2_sc.jpg" style="width:350px;height:200px;"></a>
+            <a href="http://donfiler.com/books/betrue.html">
+                <img src="./img/betrue_sc.jpg" style="width:350px;height:200px;"></a>
+            <a href="http://donfiler.com/books/parts.html">
+                <img src="./img/parts_sc.jpg" style="width:350px;height:200px;"></a>
+            <a href="http://donfiler.com/books/work.html">
+                <img src="./img/work_sc.jpg" style="width:350px;height:200px;"></a>
+            <a href="http://donfiler.com/b&w-info/">
+                <img src="./img/b&w-info_sc.jpg" style="width:350px;height:200px;"></a>
+            <a href="http://donfiler.com/fashion/">
+                <img src="./img/fashion_sc.jpg" style="width:350px;height:200px;"></a>
+            <a href="http://donfiler.com/materialize/">
+                <img src="./img/material_sc.jpg" style="width:350px;height:200px;"></a>
+            <a href="http://donfiler.com/filer/">
+                <img src="./img/filer_sc.jpg" style="width:350px;height:200px;"></a>
+            <img src="http://source.unsplash.com/random/351x200 " alt=" ">
+            <img src="https://source.unsplash.com/random/352x200 " alt=" ">
+            <img src="https://source.unsplash.com/random/353x200 " alt=" ">
+            <img src="https://source.unsplash.com/random/354x200 " alt=" ">
+        </section>
+    </div>
+    <div class="container">
+        <footer>
+            <p>Copyright &copy 2019 - All rights Reserved</p>
+        </footer>
+    </div>
+
+
+    <!-- Toggle between adding and removing the "responsive" class to nav when the user clicks on the icon  -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mynav");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+    </script>
+</body>
+
+</html>
